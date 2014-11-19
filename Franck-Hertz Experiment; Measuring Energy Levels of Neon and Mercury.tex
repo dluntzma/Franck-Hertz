@@ -68,7 +68,7 @@ Since the number of discernible dips for mercury depends on temperature, we coll
 \label{hg_data}
 \end{figure}
 
-Using the information that we obtained about the optimum range of temperature, we took a more data using a lock-in. With the lock-in we took data from 185$^{\circ}$C to 215$^{\circ}$C in increments of 5$^{\circ}$C. The output from the lock-in, see Figure~\ref{hg_lockin}, is the derivative of the output without the lock-in. Therefore, the minima in the lock-in output correspond to the steepest negative slope of the direct output and the places the lock-in data passes through zero correspond to the dips and peaks of the direct output. The lock-in detector was highly sensitive to ionization of the mercury atoms. Our 185$^{\circ}$C data already showed significant reduction in the number of minima because of ionization.
+Using the information that we obtained about the optimum range of temperature, we took a more data using a lock-in. With the lock-in we took data from 185$^{\circ}$C to 215$^{\circ}$C in increments of 5$^{\circ}$C. The output from the lock-in, see Figure~\ref{hg_lockin}, is the derivative of the output without the lock-in. Therefore, the minima in the lock-in output correspond to the steepest negative slope of the direct output and the places the lock-in data passes through zero correspond to the minima and maxima of the direct output. The lock-in detector was highly sensitive to ionization of the mercury atoms. Our 185$^{\circ}$C data already showed significant reduction in the number of minima because of ionization. Because of space considerations we are not showing all of our lock-in data. Figure~\ref{hg_lockin} is the data collected for 205$^{\circ}$C and is a representative sample of the data collected.
 
 \begin{figure}[h!]
 \centering
@@ -85,14 +85,14 @@ Using the information that we obtained about the optimum range of temperature, w
 
 \subsection{Neon}
 
-To determine the energy need to excite the neon atoms we needed to find the spacing of the minima in electron current (which we measured as a voltage.) We visually determined the locations of the minima and the steepest negative slopes with uncertainty for each of our data runs, see sample data in Figure~\ref{neon_data}. We then calculated the change in voltage between adjacent minima and steepest slopes. These values can be seen in Table~\ref{neon_dvs}.
+To determine the energy needed to excite the neon atoms we needed to find the spacing of the minima in electron current (which we measured as a voltage.) We visually determined the locations of the minima and the steepest negative slopes with uncertainty for each of our data runs, see sample data in Figure~\ref{neon_data}. We then calculated the change in voltage between adjacent minima and between adjacent steepest slopes. These values can be seen in Table~\ref{neon_dvs}.
 
 \begin{table}[h!]
 \centering
 \caption{ }
 \begin{ruledtabular}
 \begin{tabular}{c c c c}
-$\Delta$V minima & Error $\Delta$V Minima & $\Delta$V Steepest Slope &  Error $\Delta$V Steepest Slope\\
+$\Delta$V Minima & Error $\Delta$V Minima & $\Delta$V Steepest Slope &  Error $\Delta$V Steepest Slope\\
 \hline	% horizontal line to separate headings from data
 19.0 & 2.0 & 19.2 & 1.5  \\
 16.4 & 2.0 & 19.5 & 1.5  \\
@@ -108,13 +108,13 @@ $\Delta$V minima & Error $\Delta$V Minima & $\Delta$V Steepest Slope &  Error $\
 \label{neon_dvs}
 \end{table}
 
-We then averaged these values and got 17.9 $\pm$ .3 eV from the difference between the minima where the uncertainty is the standard deviation of the mean. From the difference between the steepest slopes we got a value of 19.19 $\pm$ .19 eV. If we then average these two values, we get a final value of 18.5 $\pm$ .4 eV where uncertainty is again the standard deviation of the mean. This value agrees with our expectations because neon has a large number of transitions with energies ranging from 18.3 eV to 18.9 eV.
+We then averaged these values and got 17.9 $\pm$ .3 eV as the average difference between the minima where the uncertainty is the standard deviation of the mean. From the difference between the steepest slopes we got an average value of 19.19 $\pm$ .19 eV. If we then average these two values, we get a final value of 18.5 $\pm$ .4 eV where uncertainty is again the standard deviation of the mean. This value agrees with our expectations because neon has a large number of transitions with energies ranging from 18.3 eV to 18.9 eV.
 
 \subsection{Mercury}
 
-Because the shape of our mercury data was highly dependent on temperature the process by which we found the energy level was more involved. We began our analysis in a similar way to our analysis of neon by visually determining the location of the minima. However, when we calculated the difference in voltage between minima this method gave us an uncertainty on the order of 10$\%$. We then plotted the distance between minima versus the minima number as suggested by Rapior, Sengstock and Baev~\cite{newfeatures}. We then fit linear lines to the data for each temperature. Rapior, Sengstock and Baev found that the lines from each temperature converged around the dip number .5. We found that the fit lines to our data did not converge at dip number .5, furthermore the uncertainty for our minima was large enough to make our results unconvincing.
+Because the shape of our mercury data was highly dependent on temperature, the process by which we found the energy level was more involved. We began our analysis in a similar way to our analysis of neon by visually determining the location of the minima and steepest negative slope. However, when we calculated the difference in voltage between minima this method gave us an uncertainty on the order of 10$\%$. We then plotted the distance between minima versus the minima number as suggested by Rapior, Sengstock and Baev~\cite{newfeatures} and fit linear lines to the data for each temperature. Rapior, Sengstock and Baev found that the fit lines from each temperature converged toward the minima number .5. We found that the fit lines to our data did not converge at dip number .5, see Figure~|ref{hg_direct_plot}, furthermore the uncertainty for our minima was large enough to make our results imprecise and unsatisfying.
 
-To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data. From this data we found the values seen in Table~\ref{hg_lockin_table}.
+To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data and the minima of the lock-in output corresponds to the steepest negative slopes of the direct output. The data with the least uncertainty was that data from the lock-in using the positve x intercepts to calculate the differences in voltage. From this data we found the values seen in Table~\ref{hg_lockin_table}.
 
 \begin{table}[h!]
 \centering
@@ -146,7 +146,7 @@ The results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_int
 \includegraphics[width=6in]{lockin_intercepts.pdf}
 \caption{The plot of the difference in voltage between minima versus the number of the minimum. All values have an uncertainty of ~1.3$\%$. The lines are linear fits to the data for each temperature. The two fits with steeper slopes correspond to the 195$^{\circ}$C and 185$^{\circ}$C data sets which were truncated due to ionization.}
 
-Following the analysis outlined by Rapior, Sengstock and Baev, we used our fit lines to extrapolate to the voltages corresponding to a minima number of .5. Averaging these values gave us XXX $\pm$ XXX where the uncertainty is the standard deviation of the mean. minimum 
+Following the analysis outlined by Rapior, Sengstock and Baev, we used our fit lines to extrapolate to the voltages corresponding to a minima number of .5. Averaging these values gave us XXX $\pm$ XXX where the uncertainty is the standard deviation of the mean. The results obtained from all of our mercury data are in Table~\ref{hg_results}, not the much larger uncertainties for the direct output data and lock-in data were we locked at the minima.  
 
 \label{lockin_intercepts}
 \end{figure}
