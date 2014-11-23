@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  21 NOV 2014 19:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  22 NOV 2014 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -333,38 +333,40 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Reference `hg_direct_plot' on page 4 undefined on input line 115
 .
 
-[4 <./hg_lockin.pdf>]
+[4 <./hg_lockin.pdf>] <rel_error.pdf, id=29, 862.22125pt x 348.30125pt>
+File: rel_error.pdf Graphic file (type pdf)
+
+<use rel_error.pdf>
+Package pdftex.def Info: rel_error.pdf used on input line 122.
+(pdftex.def)             Requested size: 433.62pt x 175.15997pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<lockin_intercepts.pdf, id=29, 866.23625pt x 348.30125pt>
+[5] <lockin_intercepts.pdf, id=33, 866.23625pt x 348.30125pt>
 File: lockin_intercepts.pdf Graphic file (type pdf)
 
 <use lockin_intercepts.pdf>
-Package pdftex.def Info: lockin_intercepts.pdf used on input line 146.
+Package pdftex.def Info: lockin_intercepts.pdf used on input line 158.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[6 <./lockin_intercepts.pdf>]
+[6 <./rel_error.pdf>] [7 <./lockin_intercepts.pdf>]
 No file "Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury".
 bbl.
-[7] (./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux
+[8] (./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux
 )
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4194 strings out of 493117
- 56700 string characters out of 6135433
- 135196 words of memory out of 5000000
- 7604 multiletter control sequences out of 15000+600000
+ 4200 strings out of 493117
+ 56795 string characters out of 6135433
+ 135210 words of memory out of 5000000
+ 7609 multiletter control sequences out of 15000+600000
  12559 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,8n,30p,1104b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -379,10 +381,10 @@ l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "Franck-Hertz Experiment; Measuring Energy Levels of Neon and
- Mercury.pdf" (7 pages, 717829 bytes).
+ Mercury.pdf" (8 pages, 744451 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
+ 109 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
