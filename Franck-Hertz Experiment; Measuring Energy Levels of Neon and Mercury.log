@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 NOV 2014 22:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  23 NOV 2014 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -304,7 +304,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <neon_data.pdf, id=12, 866.23625pt x 348.30125pt>
 File: neon_data.pdf Graphic file (type pdf)
  <use neon_data.pdf>
-Package pdftex.def Info: neon_data.pdf used on input line 52.
+Package pdftex.def Info: neon_data.pdf used on input line 53.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
@@ -313,42 +313,42 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <hg_data.pdf, id=13, 866.23625pt x 348.30125pt>
 File: hg_data.pdf Graphic file (type pdf)
  <use hg_data.pdf>
-Package pdftex.def Info: hg_data.pdf used on input line 66.
+Package pdftex.def Info: hg_data.pdf used on input line 67.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[2] <hg_lockin.pdf, id=19, 866.23625pt x 348.30125pt>
+ [2] [3 <./neon_data.pdf> <./hg_data.pdf>] <hg_lockin.pdf, id=24, 866.23625pt x
+ 348.30125pt>
 File: hg_lockin.pdf Graphic file (type pdf)
- <use hg_lockin.pdf>
-Package pdftex.def Info: hg_lockin.pdf used on input line 77.
+
+<use hg_lockin.pdf>
+Package pdftex.def Info: hg_lockin.pdf used on input line 78.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
-[3 <./neon_data.pdf> <./hg_data.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[4 <./hg_lockin.pdf>]
 
-LaTeX Warning: Reference `hg_direct_plot' on page 4 undefined on input line 116
+LaTeX Warning: Reference `hg_direct_plot' on page 5 undefined on input line 117
 .
 
-[4 <./hg_lockin.pdf>] <rel_error.pdf, id=29, 862.22125pt x 348.30125pt>
+[5] <rel_error.pdf, id=32, 862.22125pt x 348.30125pt>
 File: rel_error.pdf Graphic file (type pdf)
-
-<use rel_error.pdf>
-Package pdftex.def Info: rel_error.pdf used on input line 123.
+ <use rel_error.pdf>
+Package pdftex.def Info: rel_error.pdf used on input line 124.
 (pdftex.def)             Requested size: 433.62pt x 175.15997pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5] <lockin_intercepts.pdf, id=33, 866.23625pt x 348.30125pt>
+<lockin_intercepts.pdf, id=33, 866.23625pt x 348.30125pt>
 File: lockin_intercepts.pdf Graphic file (type pdf)
 
 <use lockin_intercepts.pdf>
-Package pdftex.def Info: lockin_intercepts.pdf used on input line 159.
+Package pdftex.def Info: lockin_intercepts.pdf used on input line 160.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -386,7 +386,7 @@ al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local
 texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/t
 exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "Franck-Hertz Experiment; Measuring Energy Levels of Neon and
- Mercury.pdf" (9 pages, 757146 bytes).
+ Mercury.pdf" (9 pages, 757701 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  74 compressed objects within 1 object stream
