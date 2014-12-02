@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.25)  2 DEC 2014 13:42
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.25)  2 DEC 2014 14:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -319,25 +319,26 @@ Package pdftex.def Info: lockin_intercepts.pdf used on input line 215.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[13]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13] [14 <./rel_error.pdf>] [15 <./lockin_intercepts.pdf>] [16]
+[14 <./rel_error.pdf>] [15 <./lockin_intercepts.pdf>] [16] [17]
 No file "Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury".bbl.
-[17] (/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux) ) 
+[18] (/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux) ) 
 Here is how much of TeX's memory you used:
- 4264 strings out of 493481
- 58184 string characters out of 3140965
- 133724 words of memory out of 3000000
- 7510 multiletter control sequences out of 15000+200000
+ 4262 strings out of 493481
+ 58163 string characters out of 3140965
+ 132724 words of memory out of 3000000
+ 7508 multiletter control sequences out of 15000+200000
  12252 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,9n,30p,2136b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,9n,30p,2209b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.pdf" (17 pages, 840874 bytes).
+Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.pdf" (18 pages, 843751 bytes).
 PDF statistics:
- 151 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 154 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
