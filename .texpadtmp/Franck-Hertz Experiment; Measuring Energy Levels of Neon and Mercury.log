@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.25)  2 DEC 2014 11:56
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.6.25)  2 DEC 2014 13:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -270,69 +270,68 @@ Package pdftex.def Info: figneon.png used on input line 70.
  [6] [7 <./figneon.png>] <fighg.png, id=37, 558.1653pt x 339.4281pt>
 File: fighg.png Graphic file (type png)
  <use fighg.png>
-Package pdftex.def Info: fighg.png used on input line 83.
+Package pdftex.def Info: fighg.png used on input line 87.
 (pdftex.def)             Requested size: 468.0pt x 284.59973pt.
- [8 <./fighg.png>] <neon_data.pdf, id=41, 866.23625pt x 348.30125pt>
+ [8] <neon_data.pdf, id=41, 866.23625pt x 348.30125pt>
 File: neon_data.pdf Graphic file (type pdf)
  <use neon_data.pdf>
-Package pdftex.def Info: neon_data.pdf used on input line 100.
+Package pdftex.def Info: neon_data.pdf used on input line 107.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<hg_data.pdf, id=42, 866.23625pt x 348.30125pt>
+[9 <./fighg.png>] <hg_data.pdf, id=45, 866.23625pt x 348.30125pt>
 File: hg_data.pdf Graphic file (type pdf)
  <use hg_data.pdf>
-Package pdftex.def Info: hg_data.pdf used on input line 114.
+Package pdftex.def Info: hg_data.pdf used on input line 121.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] <hg_lockin.pdf, id=46, 866.23625pt x 348.30125pt>
+ [10 <./neon_data.pdf> <./hg_data.pdf>] <hg_lockin.pdf, id=51, 866.23625pt x 348.30125pt>
 File: hg_lockin.pdf Graphic file (type pdf)
  <use hg_lockin.pdf>
-Package pdftex.def Info: hg_lockin.pdf used on input line 125.
+Package pdftex.def Info: hg_lockin.pdf used on input line 132.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
- [10 <./neon_data.pdf> <./hg_data.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./hg_lockin.pdf>] [12] <rel_error.pdf, id=59, 862.22125pt x 348.30125pt>
+ [11 <./hg_lockin.pdf>] [12] <rel_error.pdf, id=59, 862.22125pt x 348.30125pt>
 File: rel_error.pdf Graphic file (type pdf)
  <use rel_error.pdf>
-Package pdftex.def Info: rel_error.pdf used on input line 171.
+Package pdftex.def Info: rel_error.pdf used on input line 178.
 (pdftex.def)             Requested size: 433.62pt x 175.15997pt.
- <lockin_intercepts.pdf, id=60, 866.23625pt x 348.30125pt>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<lockin_intercepts.pdf, id=60, 866.23625pt x 348.30125pt>
 File: lockin_intercepts.pdf Graphic file (type pdf)
  <use lockin_intercepts.pdf>
-Package pdftex.def Info: lockin_intercepts.pdf used on input line 204.
+Package pdftex.def Info: lockin_intercepts.pdf used on input line 211.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./rel_error.pdf>] [14 <./lockin_intercepts.pdf>] [15]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./rel_error.pdf>] [14 <./lockin_intercepts.pdf>] [15] [16]
 No file "Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury".bbl.
-[16] (/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux)
+[17] (/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 4262 strings out of 493481
- 58166 string characters out of 3140965
- 132723 words of memory out of 3000000
- 7508 multiletter control sequences out of 15000+200000
+ 4263 strings out of 493481
+ 58176 string characters out of 3140965
+ 132724 words of memory out of 3000000
+ 7509 multiletter control sequences out of 15000+200000
  12252 words of font info for 47 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,9n,30p,2136b,297s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.pdf" (16 pages, 837008 bytes).
+Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Franck-Hertz-DL/.texpadtmp/Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.pdf" (17 pages, 839321 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 151 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
