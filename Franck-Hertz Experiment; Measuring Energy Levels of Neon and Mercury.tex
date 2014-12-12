@@ -160,22 +160,43 @@ We then averaged the first column and got 17.9 $\pm$ .3 eV as the average differ
 
 Because of the temperature dependence of the mercury data, the process by which we found the energy level was more involved. We began our analysis in a similar way to our analysis of neon by visually determining the location of the minima and steepest negative slope. However, when we calculated the difference in voltage between minima this method gave us an uncertainty on the order of 10$\%$. We then plotted the distance between minima versus the minimum number as suggested by Rapior, Sengstock and Baev~\cite{newfeatures} and fit linear lines to the data for each temperature. Rapior, Sengstock and Baev found that the fit lines from each temperature converged toward the minima number .5. We found that the fit lines to our data did not converge at dip number .5, furthermore the uncertainty for our minima was large enough to make our results imprecise and unsatisfying.
 
-To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data and the minima of the lock-in output corresponds to the steepest negative slopes of the direct output. Figure~\ref{rel_error} shows the data from the direct output steepest slope and minima and the corresponding lock-in outputs (minima and positive slope x-intercept) for 200$^{\circ}$C.  \textcolor{magenta}{FIgure 6 would be more helpful if the horizontal axis went to zero, so as to include the value of 0.5.  The lock-in minima appear to extrapolate to a different value at n = 1/2 than the zero current intercept values. Is that true? Is the difference signifcant? Which agrees better with theory?  } The data with the least uncertainty was that data from the lock-in using the positive x intercepts to calculate the differences in voltage. From this data we found the values seen in Table~\ref{hg_lockin_table}.
+To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data and the minima of the lock-in output corresponds to the steepest negative slopes of the direct output. Figure~\ref{rel_error} shows the data from the direct output steepest slope and minima and the corresponding lock-in outputs (minima and positive slope x-intercept) for 200$^{\circ}$C. The data with the least uncertainty was that data from the lock-in using the positive x intercepts to calculate the differences in voltage. From this data we found the values seen in Table~\ref{hg_lockin_table}.
 
 \begin{figure}[h!]
 \centering
 
 \includegraphics[width=6in]{rel_error.pdf}
-\caption{All the 200$^{\circ}$C data shown with the relative errors. The blue data is the steepest negative slope from the direct data and the corresponding lock-in minima data. The lock-in data has less than half the error of the direct data. The red data is the direct output minima and the lock-in positive x-intercepts. The lock-in positive x-intercepts had the least uncertainty.}
+\caption{All the 200$^{\circ}$C data shown with the relative errors. The blue data is the steepest negative slope from the direct data and the corresponding lock-in minima data. The lock-in data has less than half the error of the direct data. The red data is the direct output minima and the lock-in positive x-intercepts. The lock-in positive x-intercepts had the least uncertainty. However the lock-in intercept data does not agree with the known value of the energy transition, see analysis below.}
 
 \label{rel_error}
 \end{figure}
 
+\begin{table}[h!]
+\centering
+
+\caption{The difference in voltage for consecutive minimum in the lock-in output. The higher minima of the 185$^{\circ}$C data were lost due to ionization. The error for these values is 5$\%$. These values are plotted in Figure~\ref{lockin-minima}}
+
+\begin{ruledtabular}
+\begin{tabular}{c c c c c c c c}
+Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\circ}$C &$\Delta$V 200$^{\circ}$C  & $\Delta$V 195$^{\circ}$C  & $\Delta$V 195$^{\circ}$C &$\Delta$V 185$^{\circ}$C  \\
+\hline	% horizontal line to separate headings from data
+1 - 2 & 4.40  & 4.50 & 4.50 & 4.45 & 4.70 & 4.75 & 4.80 \\
+2 - 3 & 4.65  & 4.65 & 4.70 & 4.75 & 4.80 & 4.80 & 4.85 \\
+3 - 4 & 4.70  & 4.75 & 4.80 & 4.75 & 4.80 & 4.85 & 4.85 \\
+4 - 5 & 4.80  & 4.80 & 4.85 & 4.85 & 4.85 & 4.90 & 4.90 \\
+5 - 6 & 4.80  & 4.80 & 4.85 & 4.85 & 4.95 & 4.90 &         \\
+6 - 7 & 4.85  & 4.85 & 4.85 & 4.65 & 4.95 & 5.05 &         \\
+7 - 8 & 4.80  & 4.90 & 4.90 & 4.95 & 5.05 & 5.00 &         \\
+
+\end{tabular}
+\end{ruledtabular}
+\label{hg_lockin_table_min}
+\end{table}
 
 \begin{table}[h!]
 \centering
 
-\caption{The difference in voltage for consecutive positive slope x-intercepts in from the lock-in output. The first dip was indiscernible for the 215$^{\circ}$C data and the higher minima of the 195$^{\circ}$C and 185$^{\circ}$C data were lost due to ionization. The error for these values is ~1.3$\%$ \textcolor{blue}{you need a corresponding table for the lock-in minimum values, especially since those give better agreement with theory, according to what you have written}}
+\caption{The difference in voltage for consecutive positive slope x-intercepts from the lock-in output. The first dip was indiscernible for the 215$^{\circ}$C data and the higher minima of the 195$^{\circ}$C and 185$^{\circ}$C data were lost due to ionization. The error for these values is 1.3$\%$ and they are plotted in Figure~\ref{lockin_intercepts}}
 
 \begin{ruledtabular}
 \begin{tabular}{c c c c c c c c}
@@ -187,7 +208,7 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 4 - 5 & 4.74 & 4.79 & 4.89 & 4.83 & 4.87 & 4.93 &         \\
 5 - 6 & 4.76 & 4.80 & 4.87 & 4.88 & 4.95 & 4.99 &         \\
 6 - 7 & 4.76 & 4.82 & 4.84 & 4.91 &         & 5.05 &         \\
-7 -8  & 4.76 & 4.73 & 4.77 & 4.85 &         & 4.90 &         \\
+7 - 8 & 4.76 & 4.73 & 4.77 & 4.85 &         & 4.90 &         \\
 
 \end{tabular}
 \end{ruledtabular}
@@ -198,11 +219,22 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 \begin{figure}[h!]
 \centering
 
+\includegraphics[width=6in]{lockin_minima.pdf}
+\caption{The plot of the difference in voltage between minima versus the number of the minimum. All values have an uncertainty of $\%$. The lines are linear fits to the data for each temperature. }
+
+\label{lockin_minima}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+
 \includegraphics[width=6in]{lockin_intercepts.pdf}
-\caption{The plot of the difference in voltage between minima versus the number of the minimum. All values have an uncertainty of ~1.3$\%$. The lines are linear fits to the data for each temperature. The two fits with steeper slopes correspond to the 195$^{\circ}$C and 185$^{\circ}$C data sets which were truncated due to ionization.}
+\caption{The plot of the difference in voltage between positive-slope x intercepts versus the number of the minimum. All values have an uncertainty of ~1.3$\%$. The lines are linear fits to the data for each temperature. The two fits with steeper slopes correspond to the 195$^{\circ}$C and 185$^{\circ}$C data sets which were truncated due to ionization.}
 
 \label{lockin_intercepts}
 \end{figure}
+
 
 The results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_intercepts}. Following the analysis outlined by Rapior, Sengstock and Baev, we used our fit lines to extrapolate to the voltages corresponding to a minima number of .5. Averaging these values gave us 4.46 $\pm$ .12 V where the uncertainty is the standard deviation of the mean. We repeated this analysis for all lock-in and direct data. The results obtained from all of our mercury data are in Table~\ref{hg_results}, note the much larger uncertainties for the direct output data than the lock-in data.  
 
