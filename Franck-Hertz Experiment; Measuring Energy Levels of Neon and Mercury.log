@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 17:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -310,9 +310,6 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
  [3]
-
-LaTeX Warning: Reference `figneon' on page 4 undefined on input line 56.
-
 <figneon.png, id=20, 563.2242pt x 285.2256pt>
 File: figneon.png Graphic file (type png)
  <use figneon.png>
@@ -323,50 +320,22 @@ File: fighg.png Graphic file (type png)
  <use fighg.png>
 Package pdftex.def Info: fighg.png used on input line 77.
 (pdftex.def)             Requested size: 468.0pt x 284.59973pt.
-
-
-LaTeX Warning: Reference `fighg' on page 6 undefined on input line 85.
-
-
-LaTeX Warning: Reference `neon_data' on page 6 undefined on input line 92.
-
-
-LaTeX Warning: Reference `neon_data' on page 6 undefined on input line 92.
-
-
-Package natbib Warning: Citation `newfeatures' on page 6 undefined on input lin
-e 92.
-
-
-LaTeX Warning: Reference `neon_data' on page 6 undefined on input line 92.
-
-[6] [7 <./fighg.png>] <neon_data.pdf, id=38, 866.23625pt x 348.30125pt>
+ [6]
+[7 <./fighg.png>] <neon_data.pdf, id=38, 866.23625pt x 348.30125pt>
 File: neon_data.pdf Graphic file (type pdf)
 
 <use neon_data.pdf>
 Package pdftex.def Info: neon_data.pdf used on input line 97.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
-
-
-LaTeX Warning: Reference `hg_data' on page 8 undefined on input line 106.
-
-<hg_data.pdf, id=39, 866.23625pt x 348.30125pt>
+ <hg_data.pdf, id=39, 866.23625pt x 348.30125pt>
 File: hg_data.pdf Graphic file (type pdf)
- <use hg_data.pdf>
+
+<use hg_data.pdf>
 Package pdftex.def Info: hg_data.pdf used on input line 111.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `hg_data' on page 8 undefined on input line 117.
-
-
-LaTeX Warning: Reference `hg_lockin' on page 8 undefined on input line 117.
-
-
-LaTeX Warning: Reference `hg_lockin' on page 8 undefined on input line 117.
 
 [8 <./neon_data.pdf>] <hg_lockin.pdf, id=44, 866.23625pt x 348.30125pt>
 File: hg_lockin.pdf Graphic file (type pdf)
@@ -376,36 +345,9 @@ Package pdftex.def Info: hg_lockin.pdf used on input line 122.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
-LaTeX Warning: Reference `hg_data' on page 9 undefined on input line 123.
-
-
-LaTeX Warning: Reference `hg_data' on page 9 undefined on input line 123.
-
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `neon_data' on page 9 undefined on input line 134.
-
-
-LaTeX Warning: Reference `neon_dvs' on page 9 undefined on input line 134.
-
-[9 <./hg_data.pdf>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Package natbib Warning: Citation `newfeatures' on page 10 undefined on input li
-ne 161.
-
-[10 <./hg_lockin.pdf>]
-
-LaTeX Warning: Reference `rel_error' on page 11 undefined on input line 163.
-
-
-LaTeX Warning: Reference `hg_lockin_table' on page 11 undefined on input line 1
-63.
-
+[9 <./hg_data.pdf>] [10 <./hg_lockin.pdf>]
 <rel_error.pdf, id=53, 861.2175pt x 348.30125pt>
 File: rel_error.pdf Graphic file (type pdf)
  <use rel_error.pdf>
@@ -425,14 +367,6 @@ LaTeX Warning: Reference `lockin-minima' on page 11 undefined on input line 177
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `lockin_intercepts' on page 11 undefined on input line
- 199.
-
-
-LaTeX Warning: Reference `lockin_intercepts' on page 11 undefined on input line
- 199.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -457,49 +391,14 @@ Package pdftex.def Info: lockin_intercepts.pdf used on input line 232.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `hg_lockin_table' on page 11 undefined on input line 2
-39.
-
-
-LaTeX Warning: Reference `lockin_intercepts' on page 11 undefined on input line
- 239.
-
-
-LaTeX Warning: Reference `hg_results' on page 11 undefined on input line 239.
-
-[11]
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `hg_results' on page 12 undefined on input line 258.
-
-
-Package natbib Warning: Citation `newfeatures' on page 12 undefined on input li
-ne 258.
-
-[12 <./rel_error.pdf>] [13 <./lockin_minima.pdf>] [14 <./lockin_intercepts.pdf>
-]
-
-LaTeX Warning: Reference `hg_results' on page 15 undefined on input line 265.
-
-[15]
-
-LaTeX Warning: Reference `LastBibItem' on page 16 undefined on input line 283.
-
-[16]
+[11] [12 <./rel_error.pdf>] [13 <./lockin_minima.pdf>] [14 <./lockin_intercepts
+.pdf>] [15]
 No file "Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury".
 bbl.
-
-Package natbib Warning: There were undefined citations.
-
-[17]
-(./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
+[16]
+(./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -509,32 +408,31 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
 
  ) 
 Here is how much of TeX's memory you used:
- 4269 strings out of 493117
- 57866 string characters out of 6135433
- 140930 words of memory out of 5000000
- 7669 multiletter control sequences out of 15000+600000
- 12868 words of font info for 49 fonts, out of 8000000 for 9000
+ 4265 strings out of 493117
+ 57822 string characters out of 6135433
+ 143211 words of memory out of 5000000
+ 7666 multiletter control sequences out of 15000+600000
+ 12252 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,30p,2209b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,30p,2136b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loca
-l/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texliv
-e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
+texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "Franck-Hertz Experiment; Measuring Energy Levels of Neon and
- Mercury.pdf" (17 pages, 943443 bytes).
+ Mercury.pdf" (16 pages, 933661 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
+ 179 PDF objects out of 1000 (max. 8388607)
+ 110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

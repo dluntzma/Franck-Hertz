@@ -120,7 +120,7 @@ Using the information that we obtained about the optimum range of temperature, w
 \centering
 
 \includegraphics[width=6in]{hg_lockin.pdf}
-\caption{Sample mercury data at 205$^{\circ}$C using the lock-in detector. The lock-in output is the derivative of the direct output in Figure~\ref{hg_data}. Minima in the voltage correspond to the steepest negative slope of the electron current and the lock-in x intercepts with positive slopes correspond to the minima in the direct output. \textcolor{magenta}{in your analysis, you should list and graph the values corresponding to these minima (corresponding to steepest negative slope of current versus accelerating voltage), not just the zero current intercepts} }
+\caption{Sample mercury data at 205$^{\circ}$C using the lock-in detector. The lock-in output is the derivative of the direct output in Figure~\ref{hg_data}. Minima in the voltage correspond to the steepest negative slope of the electron current and the lock-in x intercepts with positive slopes correspond to the minima in the direct output.}
 
 \label{hg_lockin}
 \end{figure}
@@ -174,7 +174,7 @@ To improve our results, we used that data collected using the lock-in detector. 
 \begin{table}[h!]
 \centering
 
-\caption{The difference in voltage for consecutive minimum in the lock-in output. The higher minima of the 185$^{\circ}$C data were lost due to ionization. The error for these values is 5$\%$. These values are plotted in Figure~\ref{lockin-minima}}
+\caption{The difference in voltage for consecutive minimum in the lock-in output corresponding to the steepest negative slope of the direct output. The higher minima of the 185$^{\circ}$C data were lost due to ionization. The error for these values is 5$\%$. These values are plotted in Figure~\ref{lockin-minima}}
 
 \begin{ruledtabular}
 \begin{tabular}{c c c c c c c c}
@@ -196,7 +196,7 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 \begin{table}[h!]
 \centering
 
-\caption{The difference in voltage for consecutive positive slope x-intercepts from the lock-in output. The first dip was indiscernible for the 215$^{\circ}$C data and the higher minima of the 195$^{\circ}$C and 185$^{\circ}$C data were lost due to ionization. The error for these values is 1.3$\%$ and they are plotted in Figure~\ref{lockin_intercepts}}
+\caption{The difference in voltage for consecutive positive slope x-intercepts from the lock-in output corresponding to the minima in the direct output. The first dip was indiscernible for the 215$^{\circ}$C data and the higher minima of the 195$^{\circ}$C and 185$^{\circ}$C data were lost due to ionization. The error for these values is 1.3$\%$ and they are plotted in Figure~\ref{lockin_intercepts}}
 
 \begin{ruledtabular}
 \begin{tabular}{c c c c c c c c}
@@ -220,7 +220,7 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 \centering
 
 \includegraphics[width=6in]{lockin_minima.pdf}
-\caption{The plot of the difference in voltage between minima versus the number of the minimum. All values have an uncertainty of $\%$. The lines are linear fits to the data for each temperature. }
+\caption{The plot of the difference in voltage between minima versus the number of the minimum form the lock-in data. These values correspond to the steepest negative slope of the direct output. All values have an uncertainty of 5$\%$. The lines are linear fits to the data for each temperature.}
 
 \label{lockin_minima}
 \end{figure}
@@ -230,7 +230,7 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 \centering
 
 \includegraphics[width=6in]{lockin_intercepts.pdf}
-\caption{The plot of the difference in voltage between positive-slope x intercepts versus the number of the minimum. All values have an uncertainty of ~1.3$\%$. The lines are linear fits to the data for each temperature. The two fits with steeper slopes correspond to the 195$^{\circ}$C and 185$^{\circ}$C data sets which were truncated due to ionization.}
+\caption{The plot of the difference in voltage between positive-slope x intercepts versus the number of the minimum. These value correspond to the minima of the direct output. All values have an uncertainty of 1.3$\%$. The lines are linear fits to the data for each temperature. The two fits with steeper slopes correspond to the 195$^{\circ}$C and 185$^{\circ}$C data sets which were truncated due to ionization.}
 
 \label{lockin_intercepts}
 \end{figure}
@@ -247,7 +247,7 @@ The results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_int
  Direct Steepest Slope & Lock-in Minima & Direct Minima & Lock-in Positive Slope X-Intercept   \\
 \hline	% horizontal line to separate headings from data
 
- 4.6 $\pm$ 0.7 & 4.58 $\pm$ 0.24 V & 4.6 $\pm$ 0.4 & 4.46 $\pm$ 0.12 V  \\
+ 4.6 $\pm$ 0.7 eV & 4.58 $\pm$ 0.24 eV & 4.6 $\pm$ 0.4 eV & 4.46 $\pm$ 0.12 eV  \\
 
 \end{tabular}
 \end{ruledtabular}
@@ -255,28 +255,28 @@ The results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_int
 \end{table}
 
 
-\textit{Averaging the best values from each set of data}, from Table~\ref{hg_results}, we got a final value of 4.56 $\pm$ .4 V. This value agrees with the known value of the lowest excitation $6^{1}S_{0}$ to $6^{3}P_{0}$ (4.67 eV) of mercury and also with the second excitation $6^{1}S_{0}$ to $6^{3}P_{1}$ (4.89 eV.)~\cite{newfeatures}. \textcolor{red}{I'm not sure it is sound to average all of the different methods together. The results as presented in Table III are much more helpful and informative; you should make your comparisons with theory separately for each method. By averaging, you are weaking what you can conclude from your results! For example, your general conclusion that you can not discern between the two lowest excitiatons is true for the direct methods, but is apparently not true for the lock-in methods. The lock-in minima method is \textit{consistent} with the first excited state being at 4.67 eV and \textit{inconsistent} with it being 4.89 eV. Finally, the lock-in postive slope method (and its equivalent, the I vs V minima method) seems to have some systematic error, because its range of possible values of 4.34 to 4.58 eV doesn't include either theoretical possibility. The methods  corresponding to the steepest slope in the I vs V data, and hence the onset of inelastic energy transfer --- the direct steepest slope and lock-in minima values ---  make the most sense theoretically as criteria for determining the excitation energy for a signal with a rising non-linear background --- and it seems to me that properly analyzed, you can conclude which criteria (steepest slope in I vs V, or minima in I vs V) is consistent with theory and which criteria is more subject to systematic error, which for a background rising faster than linearly, would lead to an \textit{underestimate} of the energy (do you see why?) . And given the method less susceptible to systematic error, you find that increasing precision (by introduction of the lock-in) allows you to discern which of the two candidates is the state to which you are exciting your atoms. Why water down your conclusions?   }
+The results in Table~\ref{hg_results} are very interesting. Both of the values obtained from the direct data are very imprecise and agree with the lowest excitation energy $6^{1}S_{0}$ to $6^{3}P_{0}$ (4.67 eV) of mercury and also with the second excitation $6^{1}S_{0}$ to $6^{3}P_{1}$ (4.89 eV.)~\cite{newfeatures}. However the lock-in data is much more informative. The positive slope x-intercept lock-in data is the most precise value we obtained, but it is no longer accurate. It does not agree with the known value of lowest excitation energy of mercury. This data corresponds to the minima of the direct data which have a systematic error. Because of increasing background the locations of the minima in the direct data are at lower values. This would be eliminated in the lock-in data if the background increased linearly, but our data suggests that the background increases faster than a linear model because the lock-in value shows the same systematic error. In Table~\ref{hg_results} it can be seen that the value from the x-intercept lock-in data is much lower than the other values. 
+
+To eliminate this problem we used that the data from the steepest negative slope direct output and the corresponding lock-in minima data. Using the lock-in minima we were able to get a value that is both precise and accurate. The lock-in minima value, 4.58 $\pm$ 0.24 eV, is in agreement with the lowest excitation energy of mercury (4.67 eV). Furthermore the lock-in minima value is only in agreement with that one excitation energy, not with the second excitation energy of 4.89 eV.  
+
+
 
 \section{Discussion}
 
-textcolor{blue}{you will want to update this section after extending and revising your analysis}
 All of our data was consistent with our expectations based on theory and past experiments. We were able to see the drops in electron current at regular intervals as electron gained enough energy to excite the neon or mercury atoms. For mercury, we saw that there was an optimal temperature range when drops in electron current were maximized in number and still discernible in amplitude. As suggested by Rapior,  Sengstock, and Baev, the difference in voltage between our minima tended to increase as the number of the minimum increased. 
 
-Our final values for the energy needed to excite mercury show a stark trade off of accuracy versus precision. Our direct data values have a very large uncertainty (10 - 15$\%$), see Table~\ref{hg_results}, so they are not very precise, but they are accurate. Whereas our lock-in x-intercept data has a much smaller uncertainty (~2.7$\%$) a much higher precision, but it is no longer accurate because it is not in agreement with the known value of the excitation energy.
+One of the biggest limitations in our experiment was our uncertainty in the precise voltages corresponding to the minima and steepest slopes. Particularly for the lock-in data, but also for the direct data, our uncertainty was largely based on the resolution of our graphs. The direct output data used the power supply that came with the apparatus, it had a resolution of 0.1 V. For the lock-in data we used an independent power supply that also increased the accelerating voltage in increments of 0.1 V. These increments of 0.1 V gave us an uncertainty on that order of magnitude and set a lower limit on our uncertainty. If we had increased the accelerating voltage in increments of 0.01 V, we would have had better resolution of our data and less uncertainty in our analysis. 
 
-\textcolor{blue}{helpful:} One of the biggest limitations in our experiment was our uncertainty in the precise voltages corresponding to the minima and steepest slopes. Particularly for the lock-in data, but also for the direct data, our uncertainty was largely based on the resolution of our graphs. The direct output data used the power supply that came with the apparatus, it had a resolution of 0.1 V. For the lock-in data we used an independent power supply that also increased the accelerating voltage in increments of 0.1 V. These increments of 0.1 V gave us an uncertainty on that order of magnitude and set a lower limit on our uncertainty. If we had increased the accelerating voltage in increments of 0.01 V, we would have had better resolution of our data and less uncertainty in our analysis. 
 
 \section{Conclusion}
 
-\textcolor{blue}{you will want to update this section as well after extending and revising your analysis for Hg}
+18.5 $\pm$ 0.4 eV, the value we got for the neon excitation energy, is in agreement with a large number of excitation energies for neon between 18.3 - 18.9 eV. We were not able determine the energy transitions more precisely from the data that we collected. With our apparatus we were only able to obtain three minima before the neon ionized. Using different instrumentation we might be able to obtain more data and calculate the transition energy more precisely.
 
-18.5 $\%$ .4 eV, the value we got for the neon excitation energy, is in agreement with a large number of excitation energies for neon between 18.3 - 18.9 eV. We were not able determine the energy transitions more precisely from the data that we collected. With our apparatus we were only able to obtain three minima before the neon ionized. Using different instrumentation we might be able to obtain more data and calculate the transition more precisely.
+Our final value for mercury energy transitions was 4.58 $\pm$ 0.24 eV which agrees with the known value for the lowest energy transition, 4.67 eV. We obtained this value from minima of the lock-in data. 
 
-Our final value for mercury energy transitions was 4.56 $\pm$ .4 eV which agrees with the known values for both the lowest energy transition, 4.67 eV, and the next lowest energy transition, 4.89 eV. We would hope for a more precise answer that would correspond with just one of the energy transitions. However, the resolution of our data was restricted by the apparatus we used.
+To make our best value for the mercury transition energy more precise we would need a most sensitive measurement of electron current. Then we could have seen more minima below the first minima that we could detect. Having more minima would increase the number of data points used to fit lines and extrapolate the transition energy. Since some of our fit lines were made with only a couple of data points, increasing the number of points would help to average out outliners that are indiscernible with only a few points. 
 
-It is possible that a most sensitive measurement of electron current we could have seen more minima below the first minima that we could detect. Having more minima would increase the number of data points used to fit lines and extrapolate the transition energy. Since some of our fit lines were made with only a couple of data points, increasing the number of points would help to average out outliners that are undiscernable with only a few points. 
-
-Despite our difficulty in precisely determining the excitation energy of mercury, the overall results of this experiment are still as fascinating as they were for Franck and Hertz. This experiment clearly shows that electrons must have a certain quantified amount of energy before they can excite atoms. This result supports the premise of quantum mechanics and makes an abstract theory more tangible.
+As Franck and Hertz first found, this experiment clearly shows that electrons must have a certain quantified amount of energy before they can excite atoms. This result supports the premise of quantum mechanics and makes an abstract theory more tangible.
 
 \section{Appendix}
 
