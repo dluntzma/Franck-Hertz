@@ -4,6 +4,7 @@
 \usepackage{amsfonts} 
 \usepackage{graphicx} 
 \usepackage{color}
+
 \begin{document}
 
 
@@ -120,7 +121,7 @@ Using the information that we obtained about the optimum range of temperature, w
 \centering
 
 \includegraphics[width=6in]{hg_lockin.pdf}
-\caption{Sample mercury data at 205$^{\circ}$C using the lock-in detector. The lock-in output is the derivative of the direct output in Figure~\ref{hg_data}. Minima in the voltage correspond to the steepest negative slope of the electron current and the lock-in x intercepts with positive slopes correspond to the minima in the direct output.}
+\caption{Sample mercury data at 205$^{\circ}$C using the lock-in detector. The lock-in output is the derivative of the direct output in Figure~\ref{hg_data}. Minima in the voltage correspond to the steepest negative slope of the electron current and the lock-in x intercepts with positive slopes correspond to the minima in the direct output. For all of the data collected with the lock-in see the appendix.}
 
 \label{hg_lockin}
 \end{figure}
@@ -160,7 +161,7 @@ We then averaged the first column and got 17.9 $\pm$ .3 eV as the average differ
 
 Because of the temperature dependence of the mercury data, the process by which we found the energy level was more involved. We began our analysis in a similar way to our analysis of neon by visually determining the location of the minima and steepest negative slope. However, when we calculated the difference in voltage between minima this method gave us an uncertainty on the order of 10$\%$. We then plotted the distance between minima versus the minimum number as suggested by Rapior, Sengstock and Baev~\cite{newfeatures} and fit linear lines to the data for each temperature. Rapior, Sengstock and Baev found that the fit lines from each temperature converged toward the minima number .5. We found that the fit lines to our data did not converge at dip number .5, furthermore the uncertainty for our minima was large enough to make our results imprecise and unsatisfying.
 
-To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data and the minima of the lock-in output corresponds to the steepest negative slopes of the direct output. Figure~\ref{rel_error} shows the data from the direct output steepest slope and minima and the corresponding lock-in outputs (minima and positive slope x-intercept) for 200$^{\circ}$C. The data with the least uncertainty was that data from the lock-in using the positive x intercepts to calculate the differences in voltage. From this data we found the values seen in Table~\ref{hg_lockin_table}.
+To improve our results, we used that data collected using the lock-in detector. Because the lock-in output is the derivative of the direct output it is the x intercept with a positive slope that corresponds to the minima in the direct data and the minima of the lock-in output corresponds to the steepest negative slopes of the direct output. Figure~\ref{rel_error} shows the data from the direct output steepest slope and minima and the corresponding lock-in outputs (minima and positive slope x-intercept) for 200$^{\circ}$C. The data with the least uncertainty was that data from the lock-in using the positive x intercepts to calculate the differences in voltage. From this data we found the values seen in Table~\ref{hg_lockin_table} and~\ref{hg_lockin_table_min}.
 
 \begin{figure}[h!]
 \centering
@@ -236,7 +237,7 @@ Dips & $\Delta$V 215$^{\circ}$C & $\Delta$V 210$^{\circ}$C  & $\Delta$V 205$^{\c
 \end{figure}
 
 
-The results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_intercepts}. Following the analysis outlined by Rapior, Sengstock and Baev, we used our fit lines to extrapolate to the voltages corresponding to a minima number of .5. Averaging these values gave us 4.46 $\pm$ .12 V where the uncertainty is the standard deviation of the mean. We repeated this analysis for all lock-in and direct data. The results obtained from all of our mercury data are in Table~\ref{hg_results}, note the much larger uncertainties for the direct output data than the lock-in data.  
+The results of Table~\ref{hg_lockin_table_min} are plotted in Figure~\ref{lockin_minima}. And the results of Table~\ref{hg_lockin_table} are plotted in Figure~\ref{lockin_intercepts}. Following the analysis outlined by Rapior, Sengstock and Baev, we used our fit lines to extrapolate to the voltages corresponding to a minima number of .5. Averaging these values gave us 4.46 $\pm$ .12 V where the uncertainty is the standard deviation of the mean. We repeated this analysis for all lock-in and direct data. The results obtained from all of our mercury data are in Table~\ref{hg_results}, note the much larger uncertainties for the direct output data than the lock-in data.  
 
 
 \begin{table}[h!]
@@ -279,6 +280,74 @@ To make our best value for the mercury transition energy more precise we would n
 As Franck and Hertz first found, this experiment clearly shows that electrons must have a certain quantified amount of energy before they can excite atoms. This result supports the premise of quantum mechanics and makes an abstract theory more tangible.
 
 \section{Appendix}
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_215.pdf}
+\caption{Mercury data collected using the lock-in at 215$^{\circ}$C.}
+
+\label{lockin_215}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_210.pdf}
+\caption{Mercury data collected using the lock-in at 210$^{\circ}$C.}
+
+\label{lockin_210}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_205.pdf}
+\caption{Mercury data collected using the lock-in at 205$^{\circ}$C.}
+
+\label{lockin_205}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_200.pdf}
+\caption{Mercury data collected using the lock-in at 200$^{\circ}$C.}
+
+\label{lockin_200}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_195.pdf}
+\caption{Mercury data collected using the lock-in at 195$^{\circ}$C.}
+
+\label{lockin_195}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_190.pdf}
+\caption{Mercury data collected using the lock-in at 190$^{\circ}$C.}
+
+\label{lockin_190}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+
+\includegraphics[width=6in]{lockin_185.pdf}
+\caption{Mercury data collected using the lock-in at 185$^{\circ}$C. Note the ionization at high accelerating voltages}
+
+\label{lockin_185}
+\end{figure}
+
+
 
 \begin{thebibliography}{9}
 

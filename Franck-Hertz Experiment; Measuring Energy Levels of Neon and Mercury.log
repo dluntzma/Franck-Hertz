@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 17:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -212,28 +212,28 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 137.
 )
-Class revtex4-1 Info: Patching LaTeX tabular. on input line 7.
-Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 7.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 7.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 7.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 7.
+Class revtex4-1 Info: Patching LaTeX tabular. on input line 8.
+Class revtex4-1 Info: Robustifying \LaTeX's \boldmath command on input line 8.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 8.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 8.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 8.
 
 (./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux)
 \openout1 = `"Franck-Hertz Experiment; Measuring Energy Levels of Neon and Merc
 ury.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
 
 (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -299,12 +299,12 @@ e
 \openout3 = `"Franck-Hertz Experiment; Measuring Energy Levels of Neon and Merc
 uryNotes.bib"'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+LaTeX Font Info:    Try loading font information for U+msa on input line 29.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -313,36 +313,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <figneon.png, id=20, 563.2242pt x 285.2256pt>
 File: figneon.png Graphic file (type png)
  <use figneon.png>
-Package pdftex.def Info: figneon.png used on input line 60.
+Package pdftex.def Info: figneon.png used on input line 61.
 (pdftex.def)             Requested size: 468.0pt x 237.00266pt.
  [4] [5 <./figneon.png>] <fighg.png, id=28, 558.1653pt x 339.4281pt>
 File: fighg.png Graphic file (type png)
  <use fighg.png>
-Package pdftex.def Info: fighg.png used on input line 77.
+Package pdftex.def Info: fighg.png used on input line 78.
 (pdftex.def)             Requested size: 468.0pt x 284.59973pt.
  [6]
 [7 <./fighg.png>] <neon_data.pdf, id=38, 866.23625pt x 348.30125pt>
 File: neon_data.pdf Graphic file (type pdf)
 
 <use neon_data.pdf>
-Package pdftex.def Info: neon_data.pdf used on input line 97.
+Package pdftex.def Info: neon_data.pdf used on input line 98.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
  <hg_data.pdf, id=39, 866.23625pt x 348.30125pt>
 File: hg_data.pdf Graphic file (type pdf)
 
 <use hg_data.pdf>
-Package pdftex.def Info: hg_data.pdf used on input line 111.
+Package pdftex.def Info: hg_data.pdf used on input line 112.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[8 <./neon_data.pdf>] <hg_lockin.pdf, id=44, 866.23625pt x 348.30125pt>
+[8 <./neon_data.pdf>] <hg_lockin.pdf, id=44, 861.2175pt x 318.18875pt>
 File: hg_lockin.pdf Graphic file (type pdf)
 
 <use hg_lockin.pdf>
-Package pdftex.def Info: hg_lockin.pdf used on input line 122.
-(pdftex.def)             Requested size: 433.62pt x 174.35214pt.
+Package pdftex.def Info: hg_lockin.pdf used on input line 123.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -351,18 +351,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <rel_error.pdf, id=53, 861.2175pt x 348.30125pt>
 File: rel_error.pdf Graphic file (type pdf)
  <use rel_error.pdf>
-Package pdftex.def Info: rel_error.pdf used on input line 168.
+Package pdftex.def Info: rel_error.pdf used on input line 169.
 (pdftex.def)             Requested size: 433.62pt x 175.37256pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `lockin-minima' on page 11 undefined on input line 177
+LaTeX Warning: Reference `lockin-minima' on page 11 undefined on input line 178
 .
 
 
-LaTeX Warning: Reference `lockin-minima' on page 11 undefined on input line 177
+LaTeX Warning: Reference `lockin-minima' on page 11 undefined on input line 178
 .
 
 
@@ -374,7 +374,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <lockin_minima.pdf, id=54, 861.2175pt x 318.18875pt>
 File: lockin_minima.pdf Graphic file (type pdf)
  <use lockin_minima.pdf>
-Package pdftex.def Info: lockin_minima.pdf used on input line 222.
+Package pdftex.def Info: lockin_minima.pdf used on input line 223.
 (pdftex.def)             Requested size: 433.62pt x 160.21066pt.
 
 
@@ -384,7 +384,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: lockin_intercepts.pdf Graphic file (type pdf)
 
 <use lockin_intercepts.pdf>
-Package pdftex.def Info: lockin_intercepts.pdf used on input line 232.
+Package pdftex.def Info: lockin_intercepts.pdf used on input line 233.
 (pdftex.def)             Requested size: 433.62pt x 174.35214pt.
 
 
@@ -394,24 +394,79 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11] [12 <./rel_error.pdf>] [13 <./lockin_minima.pdf>] [14 <./lockin_intercepts
-.pdf>] [15]
+.pdf>] [15] <lockin_215.pdf, id=131, 861.2175pt x 318.18875pt>
+File: lockin_215.pdf Graphic file (type pdf)
+
+<use lockin_215.pdf>
+Package pdftex.def Info: lockin_215.pdf used on input line 287.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+ <lockin_210.pdf, id=132, 861.2175pt x 318.18875pt>
+File: lockin_210.pdf Graphic file (type pdf)
+
+<use lockin_210.pdf>
+Package pdftex.def Info: lockin_210.pdf used on input line 297.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+ <lockin_205.pdf, id=133, 861.2175pt x 318.18875pt>
+File: lockin_205.pdf Graphic file (type pdf)
+
+<use lockin_205.pdf>
+Package pdftex.def Info: lockin_205.pdf used on input line 306.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<lockin_200.pdf, id=134, 861.2175pt x 318.18875pt>
+File: lockin_200.pdf Graphic file (type pdf)
+ <use lockin_200.pdf>
+Package pdftex.def Info: lockin_200.pdf used on input line 315.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<lockin_195.pdf, id=135, 861.2175pt x 318.18875pt>
+File: lockin_195.pdf Graphic file (type pdf)
+ <use lockin_195.pdf>
+Package pdftex.def Info: lockin_195.pdf used on input line 324.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<lockin_190.pdf, id=136, 861.2175pt x 318.18875pt>
+File: lockin_190.pdf Graphic file (type pdf)
+ <use lockin_190.pdf>
+Package pdftex.def Info: lockin_190.pdf used on input line 334.
+(pdftex.def)             Requested size: 433.62pt x 160.21066pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<lockin_185.pdf, id=137, 861.2175pt x 348.30125pt>
+File: lockin_185.pdf Graphic file (type pdf)
+ <use lockin_185.pdf>
+Package pdftex.def Info: lockin_185.pdf used on input line 344.
+(pdftex.def)             Requested size: 433.62pt x 175.37256pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <./lockin_215.pdf> <./lockin_210.pdf>] [17 <./lockin_205.pdf> <./lockin_200
+.pdf> <./lockin_195.pdf>]
 No file "Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury".
 bbl.
-[16]
+[18 <./lockin_190.pdf> <./lockin_185.pdf>] [19]
 (./Franck-Hertz Experiment; Measuring Energy Levels of Neon and Mercury.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
-
  ) 
 Here is how much of TeX's memory you used:
- 4265 strings out of 493117
- 57822 string characters out of 6135433
- 143211 words of memory out of 5000000
- 7666 multiletter control sequences out of 15000+600000
+ 4309 strings out of 493117
+ 58548 string characters out of 6135433
+ 143322 words of memory out of 5000000
+ 7703 multiletter control sequences out of 15000+600000
  12252 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,30p,2136b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -429,10 +484,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on "Franck-Hertz Experiment; Measuring Energy Levels of Neon and
- Mercury.pdf" (16 pages, 933661 bytes).
+ Mercury.pdf" (19 pages, 1613350 bytes).
 PDF statistics:
- 179 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 124 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
